@@ -1,0 +1,15 @@
+{
+  "output": "output.wav",
+  "duration": 3.0,
+  "base_frequency": 440.0,
+  "sample_rate": 44100,
+  "oscillators": [
+    {"shape": "saw", "semitone": 0, "amplitude": 0.5},
+    {"shape": "sine", "semitone": 2, "amplitude": 0.3},
+    {"shape": "square", "semitone": -2, "amplitude": 0.2}
+  ],
+  "attack": 0.01,
+  "decay": 0.1,
+  "sustain": 0.8,
+  "release": 0.1
+}
